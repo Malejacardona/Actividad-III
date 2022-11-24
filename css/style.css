@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Barra de navegación */
+#menu{
+    background-color: rgb(255, 255, 255) !important;
+}
+.logo{
+    width: 200px;
+}
+#navbarNav .nav-link{
+    color: black;
+    font-size: 20px;
+}
+.dropdown-item{
+    color: black;
+    font-size: 20px;
+}
