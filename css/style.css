@@ -7,7 +7,7 @@
     background-color: rgb(255, 255, 255) !important;
 }
 .logo{
-    width: 200px;
+    width: 150px;
 }
 #navbarNav .nav-link{
     color: black;
@@ -20,7 +20,10 @@
 
 /* Slide */
 .carousel-caption{
-    color: #000;
+    color: #fff;
+}
+.slideimg{
+    height: 660px;
 }
 
 /* Footer */
