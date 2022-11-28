@@ -19,11 +19,39 @@
 }
 
 /* Slide */
+#carouselExampleCaptions{
+    margin-bottom: -100px;
+}
 .carousel-caption{
     color: #fff;
 }
 .slideimg{
     height: 660px;
+}
+
+/* Promociones */
+#prom{
+    background-color: #000;
+    padding: 15px 15px;
+}
+.tituloprom{
+    text-align: center;
+    color: #fff;
+    padding: 170px;
+    font-size: 36px;
+    margin-bottom: -100px;
+}
+.card-title{
+    text-align: center;
+}
+.btn-primary{
+    color: #fff;
+}
+.card-img-top{
+    height: 360px;
+}
+.card{
+    width: 100%;
 }
 
 /* Footer */
@@ -107,7 +135,7 @@
     padding: 100px 30px;
     color: #fff;
     font-size: 26px;
-    margin: 100px;
+    margin: -120px;
     margin-bottom: -50px;
 }
 .footer__cta-ftcontainer .cta__btn{
