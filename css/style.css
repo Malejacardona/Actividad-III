@@ -230,3 +230,53 @@ footer p{
     color: #fff;
     padding: 20px 0;
 }
+
+/* Página Antioquia */
+.jar{
+    background-color: #000;
+    margin-top: -50px;
+    margin-bottom: -30px;
+}
+.portada{
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/26/13/52/mountain-3108736_960_720.jpg);
+    background-size:cover;
+    width:100%;
+    padding: 150px 250px; 
+    display: block;
+    background-position: 100%;
+}
+.tituloportada{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    color: #fff;
+}
+#dest{
+    background-color: #000;
+    margin-bottom: 70px;
+}
+.titulodest{
+    text-align: center;
+    color: #fff;
+    padding: 60px;
+    font-size: 36px;
+    margin-bottom: -10px;
+}
+.jardin{
+    background-image: url(http://vagamundeando.co/wp-content/uploads/2019/10/DJI_0591-1.jpg);
+    background-size:cover;
+    width:100%;
+    padding: 50px 150px; 
+    display: block;
+    background-position: 100%;
+}
+.descripcion{
+    background-color: #000;
+    color: #fff;
+    text-align: justify;
+    padding-left: 400px;
+    padding-right: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
