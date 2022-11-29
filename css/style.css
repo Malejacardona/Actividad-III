@@ -296,3 +296,13 @@ footer p{
     display: block;
     background-position: 100%;
 }
+
+/* Página Caribe */
+.portadaca{
+    background-image: url(https://res.cloudinary.com/worldpackers/image/upload/c_fill,f_auto,q_auto,w_1024/v1/guides/article_cover/t1xfxri3opcf5jfj7q0n);
+    background-size:cover;
+    width:100%;
+    padding: 150px 250px; 
+    display: block;
+    background-position: 100%;
+}
