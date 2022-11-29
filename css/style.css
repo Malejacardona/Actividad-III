@@ -297,7 +297,7 @@ footer p{
     background-position: 100%;
 }
 
-/* Página Caribe */
+/* Página Costa Caribe */
 .portadaca{
     background-image: url(https://res.cloudinary.com/worldpackers/image/upload/c_fill,f_auto,q_auto,w_1024/v1/guides/article_cover/t1xfxri3opcf5jfj7q0n);
     background-size:cover;
@@ -324,6 +324,40 @@ footer p{
 }
 .guajira{
     background-image: url(https://www.colombiatctravel.com/wp-content/uploads/2021/08/slider-tour-la-guajira-cabo-de-la-vela.jpg);
+    background-size:cover;
+    width:100%;
+    padding: 50px 150px; 
+    display: block;
+    background-position: 100%;
+}
+
+/* Página Costa Pacifica */
+.portadapa{
+    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/semana/GIXX7BC5XNHYRP4CRJLOJSD3F4.jpg);
+    background-size:cover;
+    width:100%;
+    padding: 150px 250px; 
+    display: block;
+    background-position: 100%;
+}
+.cali{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/4e/Santiago_de_Cali.jpg);
+    background-size:cover;
+    width:100%;
+    padding: 50px 150px; 
+    display: block;
+    background-position: 100%;
+}
+.popayan{
+    background-image: url(https://i.ytimg.com/vi/34qNp5TfVMs/maxresdefault.jpg);
+    background-size:cover;
+    width:100%;
+    padding: 50px 150px; 
+    display: block;
+    background-position: 100%;
+}
+.pasto{
+    background-image: url(https://www.turismopasto.com/wp-content/uploads/2018/03/santuario-mas-hermoso-del-mundo-las-lajas-turismo-ipiales-colombia.jpg);
     background-size:cover;
     width:100%;
     padding: 50px 150px; 
