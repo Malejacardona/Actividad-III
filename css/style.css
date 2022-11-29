@@ -364,3 +364,37 @@ footer p{
     display: block;
     background-position: 100%;
 }
+
+/* Página Santander */
+.portadasa{
+    background-image: url(https://cdn.pixabay.com/photo/2014/08/28/07/28/mountain-429702_960_720.jpg);
+    background-size:cover;
+    width:100%;
+    padding: 150px 250px; 
+    display: block;
+    background-position: 100%;
+}
+.bucaramanga{
+    background-image: url(https://assets.weforum.org/community/image/8jfhxjBHiE7QpN1qInzW2q5PiTqPJ2cyyZtJfwgKD5o.jpeg);
+    background-size:cover;
+    width:100%;
+    padding: 50px 150px; 
+    display: block;
+    background-position: 100%;
+}
+.barichara{
+    background-image: url(https://cdn.pixabay.com/photo/2018/12/03/18/36/barichara-3853968_960_720.jpg);
+    background-size:cover;
+    width:100%;
+    padding: 50px 150px; 
+    display: block;
+    background-position: 100%;
+}
+.sangil{
+    background-image: url(https://chipviajero.com/wp-content/uploads/2019/07/Como-Llegar-a-San-Gil-Santander-Chip-Viajero-5.jpg);
+    background-size:cover;
+    width:100%;
+    padding: 50px 150px; 
+    display: block;
+    background-position: 100%;
+}
