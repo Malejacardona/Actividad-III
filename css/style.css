@@ -306,3 +306,27 @@ footer p{
     display: block;
     background-position: 100%;
 }
+.cartagena{
+    background-image: url(https://f.hubspotusercontent00.net/hubfs/5696451/Torre%20del%20Reloj%20en%20Cartagena%20de%20Indias,%20Colombia.jpg);
+    background-size:cover;
+    width:100%;
+    padding: 50px 150px; 
+    display: block;
+    background-position: 100%;
+}
+.santamarta{
+    background-image: url(https://image-tc.galaxy.tf/wijpeg-9j31yeuurxsc2qbz8eva5eit1/santamarta_standard.jpg?crop=156%2C0%2C1689%2C1267);
+    background-size:cover;
+    width:100%;
+    padding: 50px 150px; 
+    display: block;
+    background-position: 100%;
+}
+.guajira{
+    background-image: url(https://www.colombiatctravel.com/wp-content/uploads/2021/08/slider-tour-la-guajira-cabo-de-la-vela.jpg);
+    background-size:cover;
+    width:100%;
+    padding: 50px 150px; 
+    display: block;
+    background-position: 100%;
+}
