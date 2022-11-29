@@ -276,7 +276,15 @@ footer p{
     text-align: justify;
     padding-left: 400px;
     padding-right: 400px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     margin-top: 20px;
     font-size: 14px;
+}
+.guatape{
+    background-image: url(https://i0.wp.com/www.chokotrip.info/wp-content/uploads/2014/06/Guatape-el-pueblo-pintoresco-de-Antioquia-1.jpg?fit=1024%2C506&ssl=1);
+    background-size:cover;
+    width:100%;
+    padding: 50px 150px; 
+    display: block;
+    background-position: 100%;
 }
