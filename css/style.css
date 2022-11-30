@@ -269,6 +269,7 @@ footer p{
     padding: 50px 150px; 
     display: block;
     background-position: 100%;
+    margin-top: -10px;
 }
 .descripcion{
     background-color: #000;
@@ -287,6 +288,7 @@ footer p{
     padding: 50px 150px; 
     display: block;
     background-position: 100%;
+    margin-top: 68px;
 }
 .melcocho{
     background-image: url(https://1.bp.blogspot.com/-vTmESmQ-uD8/XiOjoskUTUI/AAAAAAAAGNU/XIjTayIn804X6IARbl_iX7sKLVwpUPCxQCLcBGAsYHQ/s1600/IMG_20200105_101446.jpg);
@@ -295,6 +297,16 @@ footer p{
     padding: 50px 150px; 
     display: block;
     background-position: 100%;
+}
+.descripcionmel{
+    background-color: #000;
+    color: #fff;
+    text-align: justify;
+    padding-left: 400px;
+    padding-right: 400px;
+    margin-bottom: -20px;
+    margin-top: 20px;
+    font-size: 14px;
 }
 
 /* Página Costa Caribe */
