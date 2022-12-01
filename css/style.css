@@ -39,7 +39,7 @@
     color: #fff;
     padding: 170px;
     font-size: 36px;
-    margin-bottom: -100px;
+    margin-bottom: -300px;
 }
 .card-title{
     text-align: center;
@@ -439,4 +439,19 @@ footer p{
     margin-bottom: -20px;
     margin-top: 20px;
     font-size: 14px;
+}
+
+/* Contactenos */
+.row{
+    background-color: #000;
+    margin-top: 150px;
+}
+.form-label{
+    color: #fff;
+}
+.titulo{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
 }

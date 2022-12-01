@@ -63,68 +63,36 @@
         </div>
     </nav>
 
-    <!-- Slide -->
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-                <img src="https://cdn.pixabay.com/photo/2017/12/15/13/51/polynesia-3021072_960_720.jpg" class="d-block w-100 slideimg" alt="">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Disfruta de lugares paradisiacos</h5>
-                </div>
-          </div>
-          <div class="carousel-item">
-                <img src="https://cdn.pixabay.com/photo/2022/10/04/23/33/mountains-7499281_960_720.jpg" class="d-block w-100 slideimg" alt="">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Recorre caminos increíbles</h5>
-                </div>
-          </div>
-          <div class="carousel-item">
-                <img src="https://cdn.pixabay.com/photo/2016/10/18/08/13/travel-1749508_960_720.jpg" class="d-block w-100 slideimg" alt="">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Conectate con la naturaleza</h5>
-                </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
-        </button>
-    </div>
-
-    <!-- Promociones -->
-    <div class="promo" id="prom">
-        <h2 class="tituloprom">Promociones</h2>
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                        <img src="https://www.labitacoradecarlosyeli.com/wp-content/uploads/2022/09/Jardin-Antioquia.webp" class="card-img-top" alt="">
-                        <h5 class="card-title">Jardín - Antioquia</h5>
-                        <p class="card-text">Disfruta de nuestra promoción 2x1 en el mes de Diciembre</p>
-                        <a href="antioquia.html#jardin" class="btn btn-dark">Información</a>
-                    </div>
-                </div>
+    <!-- contacto -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 p-5" id="contacto">
+        <h1 class="titulo">Contacto</h1>
+        <form class="row mx-auto g-3" action="#" method="post" id="formcontact">
+            <div class="col-md-6">
+                <label for="inputNombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" required>
             </div>
-            <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                        <img src="https://i1.wp.com/www.renunciamosyviajamos.com/wp-content/uploads/2016/12/Santuario-de-las-lajas-Colombia-Renunciamos-y-viajamos-3.jpg?fit=1300%2C864&ssl=1" class="card-img-top" alt="">
-                        <h5 class="card-title">Pasto - Nariño</h5>
-                        <p class="card-text">Disfruta de nuestro descuento del 30% en el segundo paquete turístico que adquieras</p>
-                        <a href="pacifica.html#pasto" class="btn btn-dark">Información</a>
-                    </div>
-                </div>
+            <div class="col-md-6">
+                <label for="inputApellidos" class="form-label">Apellidos</label>
+                <input type="text" class="form-control" id="apellido" name="apellido" required>
             </div>
-        </div>
+            <div class="col-md-12">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+             <div class="col-md-12">
+                <label for="celular" class="form-label">Celular</label>
+                <input type="text" class="form-control" id="celular" name="celular" required>
+            </div>
+            <div class="col-12">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="form-control"></textarea> 
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-dark">Enviar</button>
+                <button type="reset" class="btn btn-danger">Cancelar</button>
+            </div>
+        </form>
+        <a href="mailto:mari_aleja_1@hotmail.com" id="recepcion"></a>
     </div>
 
     <!-- Footer -->
@@ -168,7 +136,7 @@
                         <a href="index.html" target="_blank">Inicio</a>
                     </li>
                     <li class="footer__link">
-                        <a href="#prom" target="_blank">Promociones</a>
+                        <a href="index.html#prom" target="_blank">Promociones</a>
                     </li>
                     <li class="footer__link">
                         <a href="contactenos.html" target="_blank">Contactenos</a>
