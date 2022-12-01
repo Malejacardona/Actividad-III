@@ -386,6 +386,16 @@ footer p{
     display: block;
     background-position: 100%;
 }
+.descripcionpas{
+    background-color: #000;
+    color: #fff;
+    text-align: justify;
+    padding-left: 400px;
+    padding-right: 400px;
+    margin-bottom: -20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
 
 /* Página Santander */
 .portadasa{
